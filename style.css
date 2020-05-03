@@ -1,0 +1,744 @@
+@font-face{
+    src: url("Merriweather-Regular.ttf");
+    font-family: Mari_Weather;
+}
+
+
+div#top{
+    background-color: #3867B9;
+}
+
+
+div#top1>a>img{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+div#top2>p{
+    color: white;
+}
+
+div#top3>ul>li>a>button{
+    color: gray;
+    background-color: rgb(250, 248, 248);
+    cursor: pointer;
+}
+
+
+
+/* Layer 2 */
+
+#navigation{
+    background-color: rgb(250, 248, 248);
+    min-height: 55px;
+}
+
+#navimg{
+    width: 200px;
+    height: 3em;
+    
+}
+@media screen and (min-width: 1337px){
+    #imglink{
+        padding-left: 4.8%;
+        padding-right: 4.8%;
+    }
+
+
+    #collapsibleNavbar{
+        padding-left: 4.8%;
+        padding-right: 4.8%;
+    }
+}
+
+@media screen and (max-width: 1337px){
+    #imglink{
+        padding-left: 4.4%;
+        padding-right: 4.4%;
+    }
+
+
+    #collapsibleNavbar{
+        padding-left: 4.4%;
+        padding-right: 4.4%;
+    }
+}
+
+@media screen and (max-width: 1312px){
+    #imglink{
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
+
+    #collapsibleNavbar{
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
+}
+
+@media screen and (max-width: 1289px){
+    #imglink{
+        padding-left: 3.6%;
+        padding-right: 3.6%;
+    }
+
+
+    #collapsibleNavbar{
+        padding-left: 3.6%;
+        padding-right: 3.6%;
+    }
+}
+
+@media screen and (max-width: 1265px){
+    #imglink{
+        padding-left: 3.2%;
+        padding-right: 3.2%;
+    }
+
+
+    #collapsibleNavbar{
+        padding-left: 3.2%;
+        padding-right: 3.2%;
+    }
+}
+
+@media screen and (max-width: 1242px){
+    #imglink{
+        padding-left: 2.8%;
+        padding-right: 2.8%;
+    }
+
+
+    #collapsibleNavbar{
+        padding-left: 2.8%;
+        padding-right: 2.8%;
+    }
+}
+
+
+
+@media screen and (max-width: 1222px){
+    #imglink{
+        padding-left: 2.4%;
+        padding-right: 2.4%;
+    }
+
+
+    #collapsibleNavbar{
+        padding-left: 2.4%;
+        padding-right: 2.4%;
+    }
+}
+
+
+@media screen and (max-width: 1204px){
+    #imglink{
+        padding-left: 1.6%;
+        padding-right: 1.6%;
+    }
+
+
+    #collapsibleNavbar{
+        padding-left: 1.6%;
+        padding-right: 1.6%;
+    }
+}
+
+
+@media screen and (max-width: 1162px){
+    #imglink{
+        padding-left: 0.5%;
+        padding-right: 0.5%;
+    }
+
+
+    #collapsibleNavbar{
+        padding-left: 0.5%;
+        padding-right: 0.5%;
+    }
+}
+
+@media screen and (max-width: 1142px){
+    #imglink{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+
+    #collapsibleNavbar{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+}
+
+#button{
+    width: 120px;
+    height: 40px;
+    background-color: rgb(250, 248, 248);
+    border: none;
+    border-radius: 50px;
+}
+
+#home{
+    background-color: #3867B9;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+}
+
+#navbar>li>a{
+    color: black;
+    text-align: center;
+}
+
+
+
+div#navigation>div#navigation2>button>a:visited{
+    color: black;
+}
+
+#navbar>li>a:hover{
+    width: 120px;
+    height: 40px;
+    background-color: #3867B9;
+    color: white;
+    border: none;
+    border-radius: 50px;
+
+}
+
+
+/* Layer 3 */
+div#image>img{
+    width: 100%;
+    min-height: 130px;
+}
+
+/* Layer 4 */
+
+div#news>marquee{
+    background-color: #3867B9;
+}
+div#news>marquee>p{
+    color: white;
+}
+
+
+/* Layer 5 */
+
+div#intro{
+    background-color: rgb(250, 248, 248);
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+
+
+div#intro>div#heading>h1#blue{
+    color: rgba(4, 44, 104, 0.74);
+}
+
+div#intro>div#heading>h1#green{
+    color: rgb(52, 99, 5);
+}
+
+
+@media screen and (min-width: 1100px){
+    div#intro>div#para>p{
+        color: gray;
+        margin: auto 159px;
+        line-height: 2em;
+    }
+}
+
+
+
+@media screen and (max-width: 1100px){
+    div#intro>div#para>p{
+        color: gray;
+        margin: auto 130px;
+        line-height: 2em;
+    }
+}
+
+
+
+@media screen and (max-width: 1050px){
+    div#intro>div#para>p{
+        color: gray;
+        margin: auto 100px;
+        line-height: 2em;
+    }
+}
+
+
+
+@media screen and (max-width: 900px){
+    div#intro>div#para>p{
+        color: gray;
+        margin: auto 70px;
+        line-height: 2em;
+    }
+}
+
+
+
+@media screen and (max-width: 750px){
+    div#intro>div#para>p{
+        color: gray;
+        margin: auto 40px;
+        line-height: 2em;
+    }
+}
+
+
+
+@media screen and (max-width: 650px){
+    div#intro>div#para>p{
+        color: gray;
+        margin: auto 20px;
+        line-height: 2em;
+    }
+}
+
+
+
+@media screen and (max-width: 500px){
+    div#intro>div#para>p{
+        color: gray;
+        margin: auto 10px;
+        line-height: 2em;
+    }
+}
+
+
+
+
+/* Layer 6 */
+
+div#progress{
+    background-color: rgb(17, 96, 222);
+    min-height: 300px;
+}
+
+
+
+div#progress>div>div>img#prog_img{
+    height: 55px;
+    width: 55px;
+}
+
+
+div#progress>div>p#progress1{
+    color: white;
+    font-size: 32pt;
+    font-family: Mari_Weather;
+}
+
+
+@media screen and (min-width: 400px){
+
+    div#progress>div>p#progress2{
+        color: white;
+        font-size: 14pt;
+        font-weight: bold;
+    }
+
+
+
+    div#progress>div>p#monthly{
+        color: rgb(10, 230, 10);
+        font-size: 18pt;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 400px){
+
+    div#progress>div>p#progress2{
+        color: white;
+        font-size: 10pt;
+        font-weight: bold;
+    }
+
+
+
+    div#progress>div>p#monthly{
+        color: rgb(10, 230, 10);
+        font-size: 14pt;
+        font-weight: bold;
+    }
+}
+
+
+@media screen and (max-width: 1126px){
+    #progress{
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+    #adoption{
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+    #medical{
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+    #education{
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+}
+
+@media screen and (max-width: 910px){
+    #progress{
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    #adoption{
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    #medical{
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    #education{
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width: 910px){
+    #progress{
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    #adoption{
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    #medical{
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    #education{
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 850px){
+    #progress{
+        padding-right: 70px;
+        padding-left: 70px;
+    }
+    #adoption{
+        padding-right: 70px;
+        padding-left: 70px;
+    }
+    #medical{
+        padding-right: 70px;
+        padding-left: 70px;
+    }
+    #education{
+        padding-right: 70px;
+        padding-left: 70px;
+    }
+}
+
+@media screen and (max-width: 656px){
+    #progress{
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    #adoption{
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    #medical{
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    #education{
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    #progress{
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+    #adoption{
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    #medical{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    #education{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+@media screen and (max-width: 369px){
+    #medical{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    #education{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
+
+
+
+/* Layer 7 */
+
+
+div#services{
+    width: 100%;
+    background-color: rgb(250, 248, 248);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+div#services>div#service1>h1#blue_h{
+    color: rgba(4, 44, 104, 0.74);
+}
+
+div#services>div#service1>h1#green_h{
+    color: rgb(52, 99, 5);
+}
+
+@media screen and (max-width: 1400px){
+    div#services>div#service_btns>a>button{
+        width: 350px;
+        height: 200px;
+        margin: 10px;
+        background-color: white;
+        border: none;
+        box-shadow: 0.5px 0.5px 10px grey;
+        cursor: pointer;
+}
+}
+
+
+@media screen and (max-width: 400px){
+    div#services>div#service_btns>a>button{
+        width: 275px;
+        height: 200px;
+        margin: 10px;
+        background-color: white;
+        border: none;
+        box-shadow: 0.5px 0.5px 10px grey;
+        cursor: pointer;
+}
+}
+
+
+
+
+div#services>div#service_btns>a>button>p{
+    font-size: 14pt;
+    color: rgb(17, 96, 222);
+    font-weight: bold;
+    line-height: 3em;
+}
+
+
+
+/* Layer 8 */
+
+div#mission{
+    padding-top: 5%;
+}
+
+div#mission>div#upcomming>div#upcomming1>p{
+    font-weight: bold;
+    font-size: 24pt;
+    color: rgb(17, 96, 222);
+}
+
+
+div#mission>div#upcomming>div#upcomming2>a>button{
+    width: 350px;
+    height: 75px;
+    background-color: rgb(250, 248, 248);
+    border: 0.1px solid rgba(194, 184, 184,0.3);
+    font-size: 14pt;
+    font-weight: bold;
+    color: rgb(17, 96, 222);
+}
+
+
+div#upcomming_news1>p{
+    font-weight: bold;
+    font-size: 24pt;
+    color: rgb(17, 96, 222);
+
+}
+
+
+
+div#upcomming_news2>marquee{
+    color: gray;
+}
+
+
+@media screen and (min-width: 900px){
+    div#upcomming2{
+        width: 750px;
+    }
+
+
+    div#upcomming_news2{
+        width: 300px;
+    }
+}
+
+
+@media screen and (max-width: 900px){
+    div#upcomming_news2{
+        width: 300px;
+    }
+}
+
+
+
+/* Layer 9 */
+
+div#gallery1>p{
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+
+div#gallery1>p#p1{
+    color: rgba(4, 44, 104, 0.74);
+
+}
+
+
+div#gallery1>p#p2{
+    color: rgb(52, 99, 5);
+    
+}
+
+
+@media screen and (min-width: 1250px){
+    div#gallery1{
+        padding-top: 7%;
+    }
+    div#gallery2{
+        padding-bottom: 7%;
+    }
+    
+    div#gallery2>img{
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 1250px){
+    div#gallery1{
+        padding-top: 7%;
+    }
+    div#gallery2{
+        padding-bottom: 7%;
+    }
+    
+    div#gallery2>img{
+        width: 450px;
+        height: 350px;
+    }
+}
+
+
+@media screen and (max-width: 945px){
+    div#gallery1{
+        padding-top: 7%;
+    }
+    div#gallery2{
+        padding-bottom: 7%;
+    }
+    
+    div#gallery2>img{
+        width: 350px;
+        height: 250px;
+    }
+}
+
+
+@media screen and (max-width: 745px){
+    div#gallery1{
+        padding-top: 7%;
+    }
+    div#gallery2{
+        padding-bottom: 7%;
+    }
+    
+    div#gallery2>img{
+        width: 300px;
+        height: 200px;
+    }
+}
+
+
+#footer{
+    background-color: rgb(37, 37, 37);
+}
+
+div#col1>p{
+    color: white;
+}
+
+
+div#col1>p>img{
+    width: 15px;
+    height: 15px;
+}
+
+div#col2>p{
+    color: white;
+    font-size: 14pt;
+    font-weight: bold;
+}
+div#col2>img{
+    width: 400px;
+    height: 5px;
+}
+
+div#col3>p{
+    color: white;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+div#col3>img{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+div#copy_right{
+    background-color: rgb(17, 96, 222);
+}
+
+
+div#copy_right>p{
+    color: white;
+}
