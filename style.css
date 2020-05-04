@@ -479,9 +479,17 @@ div#progress>div>p#progress1{
         padding-right: 0%;
         padding-left: 0%;
     }
+    #medical{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    #education{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
 }
 
-@media screen and (max-width: 400px){
+/* @media screen and (max-width: 400px){
     #medical{
         padding-right: 15px;
         padding-left: 15px;
@@ -490,15 +498,15 @@ div#progress>div>p#progress1{
         padding-right: 15px;
         padding-left: 15px;
     }
-}
+} */
 @media screen and (max-width: 369px){
     #medical{
-        padding-right: 0px;
-        padding-left: 0px;
+        padding-right: 10px;
+        padding-left: 10px;
     }
     #education{
-        padding-right: 0px;
-        padding-left: 0px;
+        padding-right: 10px;
+        padding-left: 10px;
     }
 }
 
